@@ -41,11 +41,7 @@
         ;
     }
 
-    body, html {
-        @apply h-screen;
-    }
-
     body {
-        @apply antialiased bg-primary text-secondary;
+        @apply antialiased bg-secondary;
     }
 }

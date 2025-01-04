@@ -12,6 +12,10 @@ export default {
         "./nuxt.config.{js,ts}",
     ],
     theme: {
+        container: {
+            center: true,
+            padding: '1rem'
+        },
         extend: {
             colors: {
                 'primary': '#2F4858',

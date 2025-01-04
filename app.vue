@@ -1,5 +1,5 @@
 <template>
-    <div>
+    <div class="h-screen flex flex-col">
         <NuxtRouteAnnouncer />
         <NuxtLayout>
             <NuxtPage />
@@ -7,10 +7,10 @@
     </div>
 </template>
 <script setup>
-const runtimeConfig = useRuntimeConfig()
 
 let title = 'Martin Skroch ‒ Full Stack Web Entwickler';
-let decription = runtimeConfig.public.properties.map((p) => p.title).join(', ');
+// let decription = useRuntimeConfig().public.properties.map((p) => p.title).join(', ');
+let decription = 'Full Stack Web Entwickler: ' + useRuntimeConfig().public.skills.map((p) => p.title).join(', ');
 
 useSeoMeta({
     title: title,
@@ -18,6 +18,5 @@ useSeoMeta({
     description: decription,
     ogDescription: decription,
     ogImage: 'https://martin-skroch.de/og-image.avif',
-    twitterCard: 'summary_large_image',
 })
 </script>
