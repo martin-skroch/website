@@ -75,8 +75,12 @@ export default defineNuxtConfig({
         },
     },
     modules: [
-        '@nuxt/icon'
+        '@nuxtjs/sitemap',
+        '@nuxt/icon',
     ],
+    sitemap: {
+        xsl: false
+    },
     icon: {
         class: 'flex',
         customCollections: [
