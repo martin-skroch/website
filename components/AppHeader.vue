@@ -33,11 +33,6 @@
                     </AppButton>
                 </li>
                 <li>
-                    <AppButton href="https://www.facebook.com/martin.skroch.private" target="_blank" rel="noopener" title="Martin Skroch auf Facebook">
-                        <Icon name="bxl:facebook" /> <span class="hidden">Facebook</span>
-                    </AppButton>
-                </li>
-                <li>
                     <AppButton href="https://x.com/martin_skroch" target="_blank" rel="noopener" title="Martin Skroch auf X">
                         <Icon name="tabler:brand-x" /> <span class="hidden">X</span>
                     </AppButton>
