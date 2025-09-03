@@ -5,7 +5,7 @@ export default defineNuxtPlugin(() => {
         return;
     }
 
-    if (typeof GTM.id === 'string' && GTM.id === '') {
+    if (typeof GTM?.id !== 'string' || GTM?.id === '') {
         return;
     }
 
