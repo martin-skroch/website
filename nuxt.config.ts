@@ -42,6 +42,9 @@ export default defineNuxtConfig({
     },
     runtimeConfig: {
         public: {
+            GTM: {
+                id: 'GTM-5932P8J5'
+            },
             properties: [
                 { icon: 'ph:code-duotone', title: 'Webentwickler' },
                 { icon: 'ph:linux-logo-duotone', title: 'Linuxnutzer' },
