@@ -85,7 +85,7 @@ export default defineNuxtConfig({
         xsl: false
     },
     icon: {
-        class: 'flex',
+        class: 'inline-flex',
         customCollections: [
             {
                 prefix: 'icon',

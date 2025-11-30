@@ -1,12 +1,12 @@
 <template>
-    <header class="h-screen flex items-center justify-center py-10 md:py-20 bg-primary text-secondary">
-        <div class="max-w-3xl mx-auto flex flex-col gap-8 items-center justify-center">
+    <header class="px-5 py-10 md:py-20 bg-primary text-secondary">
+        <div class="max-w-5xl mx-auto flex flex-col gap-8 items-center justify-center">
 
             <img src="~/assets/img/avatar.webp" alt="Bild von Martin Skroch" class="w-36 h-36 md:w-56 md:h-56 border-4 md:border-8 rounded-full shadow-lg bg-secondary border-secondary">
 
             <h1 class="text-4xl md:text-6xl font-extrabold font-anaheim text-center">Martin Skroch</h1>
 
-            <p class="text-sm md:text-xl text-center flex flex-wrap items-center justify-center gap-x-5 gap-y-1 md:gap-x-6 md:gap-y-3">
+            <!-- <p class="text-sm md:text-xl text-center flex flex-wrap items-center justify-center gap-x-5 gap-y-1 md:gap-x-6 md:gap-y-3">
                 <AppProperty>
                     <Icon name="ph:baby-duotone" /> {{ age ?? '00' }} Jahre
                 </AppProperty>
@@ -14,7 +14,7 @@
                 <AppProperty v-for="property in runtimeConfig.public.properties">
                     <Icon :name="property.icon" /> {{ property.title }}
                 </AppProperty>
-            </p>
+            </p> -->
 
             <ul class="flex flex-wrap justify-center gap-3 md:gap-6">
                 <li>
